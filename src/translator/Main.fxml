@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="translator.MainController">
+    <children>
+        <HBox layoutX="128.0" layoutY="250.0" prefHeight="45.0" prefWidth="940.0" spacing="10.0" AnchorPane.leftAnchor="128.0" AnchorPane.rightAnchor="132.0">
+            <children>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="450.0" prefWidth="940.0" text="क">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="450.0" prefWidth="940.0" text="ख">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="450.0" prefWidth="940.0" text="ग">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="450.0" prefWidth="940.0" text="ज">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="450.0" prefWidth="940.0" text="ड">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="450.0" prefWidth="940.0" text="ढ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="450.0" prefWidth="940.0" text="फ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="450.0" prefWidth="940.0" text="य">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="450.0" prefWidth="940.0" text="घ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="450.0" prefWidth="940.0" text="ल">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="450.0" prefWidth="940.0" text="च">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="450.0" prefWidth="940.0" text="छ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="450.0" prefWidth="940.0" text="झ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="450.0" prefWidth="940.0" text="ञ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="450.0" prefWidth="940.0" text="ट">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="450.0" prefWidth="940.0" text="ठ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ण">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+        <HBox layoutX="128.0" layoutY="300.0" prefHeight="45.0" prefWidth="940.0" spacing="10.0" AnchorPane.leftAnchor="128.0" AnchorPane.rightAnchor="132.0">
+            <children>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="त">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="थ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="द">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ङ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ध">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="न">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ऩ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="प">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ब">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="भ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="म">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="र">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ऱ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ळ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ऴ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="व">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="श">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+        <HBox layoutX="128.0" layoutY="350.0" prefHeight="45.0" prefWidth="890.0" spacing="10.0" AnchorPane.leftAnchor="128.0" AnchorPane.rightAnchor="132.0">
+            <children>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="890.0" text="ष">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="890.0" text="स">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="890.0" text="ह">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="890.0" text="ॲ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="890.0" text="ॳ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="890.0" text="ॴ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="890.0" text="ॵ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="890.0" text="ॶ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="890.0" text="ॷ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="890.0" text="॑">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="890.0" text="॒">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="890.0" text="॰">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="890.0" text="ऽ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="890.0" text="ॱ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="890.0" text="।">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="890.0" text="॥">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+        <HBox layoutX="80.0" layoutY="50.0" prefHeight="45.0" prefWidth="940.0" spacing="10.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="80.0">
+            <children>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॅ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॕ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ऀ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ँ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ं">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="़">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ः">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="॓">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="॔">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="्">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ू">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ु">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ृ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॄ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॢ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॣ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ऺ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+        <HBox layoutX="128.0" layoutY="100.0" prefHeight="45.0" prefWidth="840.0" spacing="10.0" AnchorPane.leftAnchor="128.0" AnchorPane.rightAnchor="132.0">
+            <children>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ा">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॉ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="े">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ै">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ो">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ौ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॆ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॊ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॏ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ी">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ि">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ऻ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॎ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॖ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॗ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+        <HBox layoutX="128.0" layoutY="150.0" prefHeight="45.0" prefWidth="1000.0" spacing="10.0" AnchorPane.leftAnchor="128.0" AnchorPane.rightAnchor="132.0">
+            <children>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="ऄ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="अ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="आ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="इ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="ई">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="उ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="ऊ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="ॐ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="ऋ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="ऌ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="ऍ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="ऎ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="ए">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="ऐ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="ऑ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="ऒ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="ओ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="1000.0" text="औ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+        <HBox layoutX="128.0" layoutY="200.0" prefHeight="45.0" prefWidth="940.0" spacing="10.0" AnchorPane.leftAnchor="128.0" AnchorPane.rightAnchor="132.0">
+            <children>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="क़">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ख़">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ग़">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ज़">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ड़">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ढ़">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="फ़">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="य़">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॠ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॡ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॸ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॹ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॺ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॻ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॼ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॾ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button focusTraversable="false" mnemonicParsing="false" onAction="#processText" prefHeight="45.0" prefWidth="940.0" text="ॿ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+        <HBox layoutX="80.0" layoutY="420.0" prefHeight="50.0" prefWidth="750.0" spacing="20.0" AnchorPane.leftAnchor="80.0">
+            <children>
+                <TextField fx:id="inputWord" prefHeight="50.0" prefWidth="500.0" promptText="Look up">
+                    <font>
+                        <Font name="Arial" size="18.0" />
+                    </font>
+                </TextField>
+            <Button fx:id="b" focusTraversable="false" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#speak" prefHeight="50.0" prefWidth="50.0" />
+                <Button mnemonicParsing="false" onAction="#saveText" prefHeight="50.0" prefWidth="150.0" text="Search">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+               
+                </Button>
+            </children>
+        </HBox>
+        <TextArea fx:id="textShow" editable="false" focusTraversable="false" layoutX="80.0" layoutY="500.0" prefHeight="100.0" prefWidth="800.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="521.0" AnchorPane.topAnchor="500.0">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextArea>
+      <Button layoutX="1170.0" layoutY="600.0" minHeight="30.0" mnemonicParsing="false" onAction="#aboutUs" prefWidth="100.0" text="Contact us" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="28.0" />
+    </children>
+</AnchorPane>
